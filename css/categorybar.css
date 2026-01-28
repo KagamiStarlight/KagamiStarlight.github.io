@@ -59,10 +59,10 @@ span.categoryBar-list-count::before {
   content: '\f02d' !important;
   padding-right: 15px !important;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 900 !important; 
   font-style: normal;
   font-variant: normal;
-  font-family: 'Font Awesome 6 Free';
+  font-family: 'Font Awesome 7 Free' !important; 
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
