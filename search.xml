@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Butterfly更改分类页面</title>
+      <link href="/posts/a8649835/"/>
+      <url>/posts/a8649835/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Butterfly更改分类页面"><a href="#Butterfly更改分类页面" class="headerlink" title="Butterfly更改分类页面"></a>Butterfly更改分类页面</h1><p>利用<a href="https://akilar.top/posts/a9131002/">店长</a>的插件 hexo-butterfly-categories-card</p><p>如果直接挂载在分类页面的话，插件无法覆盖原来的分类，于是我们需要修改(theme&#x2F;butterfly&#x2F;layout&#x2F;includes&#x2F;page&#x2F;categories.pug)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">.category-lists</span><br><span class="line">//- .category-lists!= list_categories()   &lt;--  将原来的注释掉</span><br></pre></td></tr></table></figure><p>这样就可以只剩下卡片效果了</p><h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img src="/posts/a8649835/%E6%95%88%E6%9E%9C%E5%9B%BE.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客搭建 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/posts/4a17b156/"/>
       <url>/posts/4a17b156/</url>
