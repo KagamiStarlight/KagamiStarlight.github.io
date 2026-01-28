@@ -191,4 +191,13 @@
   if (location.pathname.startsWith('/categories/') || '/categories/' === 'all') {
     butterfly_categories_card_injector_config();
   }
-  </script><!-- hexo injector body_end end --></body></html>
+  </script><script data-pjax src="https://unpkg.com/oh-my-live2d"></script><script>const oml2d = OML2D.loadOml2d({dockedPosition:"left",mobileDisplay:true,models:[{"path":"/live2d-models/UG/ugofficial.model3.json","mobilePosition":[-10,23],"mobileScale":0.1,"mobileStageStyle":{"width":180,"height":166},"motionPreloadStrategy":"IDLE","position":[-15,0],"scale":0.28,"stageStyle":{"width":250,"height":250}},{"path":"/live2d-models/兔兔-阿米娅/兔兔-阿米娅.model3.json","scale":0.12,"position":[-40,0],"stageStyle":{"width":250},"mobileScale":0.08,"mobilePosition":[0,0],"mobileStageStyle":{"width":180}}],parentElement:document.body,primaryColor:"var(--btn-bg)",sayHello:false,tips:{style: {"width":230,"height":120,"left":"calc(50% - 20px)","top":"-100px"},mobileStyle: {"width":180,"height":80,"left":"calc(50% - 30px)","top":"-100px"},idleTips:{interval:15000,message:function(){
+  return axios.get('https://v1.hitokoto.cn?c=i')
+    .then(function (response) {
+      return response.data.hitokoto ;
+    })
+    .catch(function (error) {
+      console.error(error);
+    });
+}
+}}});</script><!-- hexo injector body_end end --></body></html>
