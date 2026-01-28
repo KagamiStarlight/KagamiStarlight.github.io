@@ -13,7 +13,7 @@ function showDateTime() {
     const timeDisplay = document.getElementById('span_dt_dt');
     if (!timeDisplay) return;
 
-    const startTime = new Date("2024-09-05T15:41:23");
+    const startTime = new Date("2026-01-23T15:41:23");
     const now = new Date();
     const elapsedMilliseconds = now - startTime;
     const seconds = Math.floor(elapsedMilliseconds / 1000);
